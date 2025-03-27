@@ -1,1 +1,2 @@
 # 30-DaysOfJava
+30 Days of Java ☕🚀 Welcome to my 30 Days of Java journey! This repository is dedicated to revising core Java concepts and problem-solving techniques in preparation for tackling LeetCode challenges. 📌 What to Expect: Daily Java exercises and problem solutions Key concepts in OOP, Data Structures, and Algorithms Code snippets, explanations, and best practices LeetCode problem-solving strategies Join me on this journey as I strengthen my Java skills and get ready for coding interviews! 💻🔥
