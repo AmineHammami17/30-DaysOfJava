@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -57,6 +58,31 @@ public class Main {
         cars.removeFirst();
 
         System.out.println("List after deletion : " +cars);
+
+        // HashMaps
+        // Store items in key/value  pairs
+        HashMap<String, String> capitalCities = new HashMap<String, String>();
+        capitalCities.put("Tunisia","Tunis");
+        capitalCities.put("Germany","Berlin");
+        capitalCities.put("Spain","Madrid");
+        System.out.println(capitalCities);
+
+        //Size
+        capitalCities.size();
+
+        //Access an item
+        capitalCities.get("England");
+
+        //Remove an item
+        capitalCities.remove("England");
+
+        // Print keys and values
+        for (String i : capitalCities.keySet()) {
+            System.out.println("key: " + i + " value: " + capitalCities.get(i));
+        }
+
+        //Clear all items
+        capitalCities.clear();
 
 
 
