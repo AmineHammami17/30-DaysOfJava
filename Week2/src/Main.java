@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -83,6 +80,31 @@ public class Main {
 
         //Clear all items
         capitalCities.clear();
+
+        //HashSets
+        // Collection of items where every item is unique
+
+        HashSet<String> Wrestlers = new HashSet<String>();
+        // Add Wrestlers
+        Wrestlers.add("Will Ospreay");
+        Wrestlers.add("Bryan Danielson");
+        Wrestlers.add("Swerve Strickland");
+        Wrestlers.add("Jon Moxley");
+        //Check existance
+        System.out.println(Wrestlers.contains("Cody Rhodes"));
+        System.out.println(Wrestlers.contains("Bryan Danielson"));
+        //Remove , size , clear all as the others
+
+        //Iterator object that can be used to loop through collections
+        Iterator<String> it = Wrestlers.iterator();
+        while(it.hasNext()) {
+            System.out.println(it.next());
+        }
+
+
+
+
+
 
 
 
